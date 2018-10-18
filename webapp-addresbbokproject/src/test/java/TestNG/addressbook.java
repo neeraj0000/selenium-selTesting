@@ -14,7 +14,7 @@ public class addressbook {
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		  driver = new ChromeDriver();
-		  driver.get("http://10.184.20.170:8080/maven-addressbook/");
+		  driver.get("http://10.184.20.170:8080/maven-addressbook");
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
