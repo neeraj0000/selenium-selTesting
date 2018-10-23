@@ -12,7 +12,7 @@ public class addressbook {
 	 WebDriver driver;
 	@BeforeMethod
 	public void launch() {
-		System.setProperty("webdriver.chrome.driver", "/usr/share/maven/workspace/TestWeb/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		  driver = new ChromeDriver();
 		  driver.get("http://10.184.20.170:8080/maven-addressbook");
 		  driver.manage().window().maximize();
