@@ -2,7 +2,7 @@
 <suite name="Suite1">
 <test name="WebDriver">
 <classes>
-<class name="TestNG.addressbook"/>
+<class name="testng.xml"/>
 </classes>
 </test>
 </suite>
